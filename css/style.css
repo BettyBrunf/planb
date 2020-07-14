@@ -55,3 +55,12 @@ td {
 .button {
 	font:14px 'Ovo',serif;
 }
+
+@media screen and (max-width: 1200px) {
+	
+	.landing {
+		max-width: 100%;
+	}
+	
+	
+}
