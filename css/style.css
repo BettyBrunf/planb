@@ -353,14 +353,14 @@ li a:hover {
 }
 
 .longheroimg {
+	position: relative;
 	margin-left: -1em;
+	margin-bottom: -0.3em;
 }
 
 .longheroimg img {
 	width: 100vw;
 	height: auto;
-	margin-left: -1em; 
-	margin-bottom: -0.3em;
 }
 
 .longimgleft, .longimgright {
