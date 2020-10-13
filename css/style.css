@@ -629,10 +629,6 @@ footer {
 
 @media only screen and (max-width: 770px) {
   
-.wrapper img {
-	width: auto;
-	height: 100%;
-}
 
 /*INTRO PHONE*/
 .nophone {
