@@ -5,35 +5,6 @@ font-weight: normal;
 src: local('Space Grotesk Regular'), url('font/SpaceGrotesk-Regular.woff2') format('woff2');
 }
 
-@font-face {
-font-family: 'Space Grotesk';
-font-style: normal;
-font-weight: 200;
-src: local('Space Grotesk Medium'), url('font/SpaceGrotesk-Medium.woff2') format('woff2');
-}
-
-@font-face {
-font-family: 'Space Grotesk';
-font-style: normal;
-font-weight: 300;
-src: local('Space Grotesk Bold'), url('font/SpaceGrotesk-Bold.woff2') format('woff2');
-}
-
-@font-face {
-font-family: 'Space Grotesk';
-font-style: normal;
-font-weight: 400;
-src: local('Space Grotesk SemiBold'), url('font/SpaceGrotesk-SemiBold.woff2') format('woff2');
-}
-
-@font-face {
-font-family: 'Space Grotesk';
-font-style: normal;
-font-weight: 0;
-src: local('Space Grotesk Light'), url('font/SpaceGrotesk-Light.woff2') format('woff2');
-}
-
-
 /*GENERAL*/
 
 * {
@@ -60,6 +31,7 @@ body {
 	width: 100vw;
 	height: 100vh;
 	z-index: 20;
+	background-color: black;
 }
 
 .wrapper img {
@@ -162,6 +134,8 @@ h1 a:hover, p a:hover {
 	bottom: 0;
 	width: 60vw;
 	padding-top: 1em;
+	padding-left: 0.5em;
+	padding-bottom: 0.2em;
 }
 
 .bibli {
@@ -642,19 +616,19 @@ footer {
 
 
 .left {
-	width: 85vw;
+	width: 90vw;
 	order: 2;
 }
 
 .right {
-	width: 85vw;
+	width: 90vw;
 	order: 1;
 }
 
 /*FOOTNOTES*/
 
 .bibliography {
-	width: 90vw;
+	width: 95vw;
 }
 
 .bibli {
@@ -737,7 +711,6 @@ footer {
 
 .herovideo {
 	position: relative;
-
 	width: 100vw;
 	height: 85vh;
 	overflow: hidden;
@@ -812,11 +785,11 @@ footer {
 /*PROJ TEXT STYLE*/
 
 .bigtype {
-	width: 85vw;
+	width: 90vw;
 }
 
 .smalltype {
-  	width: 60vw;
+  	width: 70vw;
 }
 
 /*TECH SPEC*/
