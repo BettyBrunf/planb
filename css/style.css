@@ -117,7 +117,7 @@ main {
 /*TEXTINTRO*/
 
 h1 {
-	font-weight: lighter;
+	font-weight: normal;
 	font-size: 2em;
 	padding: 0;
 	padding-bottom: 1em;
@@ -126,7 +126,7 @@ h1 {
 }
 
 .intro p {
-	font-weight: lighter;
+	font-weight: normal;
 	font-size: 2em;
 	padding-bottom: 2em;
 	line-height: 1.3em;
@@ -188,13 +188,13 @@ ol {
   	padding: 0;
   	padding-left: 1.2em;
   	padding-bottom: 1em;
-  	font-weight: lighter;
+  	font-weight: normal;
   	color: black;
 }
 
 li a {
 	text-decoration: none;
-	font-weight: lighter;
+	font-weight: normal;
 	color: black;
 }
 
@@ -214,7 +214,7 @@ li a:hover {
 .links {
 	padding-top: 0.7em;
 	text-decoration: none;
-	font-weight: lighter;
+	font-weight: normal;
 	color: black;
 	font-size: 1em;
 	text-align: right;
@@ -222,7 +222,7 @@ li a:hover {
 
 .links a {
 	text-decoration: none;
-	font-weight: lighter;
+	font-weight: normal;
 	color: black;
 	font-size: 1em;
 }
@@ -494,7 +494,7 @@ li a:hover {
 /*PROJ TEXT STYLE*/
 
 .bigtype {
-	font-weight: lighter;
+	font-weight: normal;
 	font-size: 2em;
 	padding: 0;
 	padding-bottom: 1em;
@@ -506,7 +506,7 @@ li a:hover {
 
 .smalltype {
 	font-size: 1em;
-  	font-weight: lighter;
+  	font-weight: normal;
   	color: #f5f3e9;
   	width: 25vw;
   	background: transparent;
@@ -548,7 +548,7 @@ table td {
 
 td {
 	font-size: 1em;
-	font-weight: lighter;
+	font-weight: normal;
 	vertical-align: top;
 	padding: 0.3em;
 }
@@ -609,7 +609,7 @@ footer {
   	border: none;
   	text-decoration: none;
   	font-size: 1em;
-  	font-weight: lighter;
+  	font-weight: normal;
   	right: 0;
   	top: 45vh;
   	display: flex;
