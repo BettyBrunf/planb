@@ -5,6 +5,35 @@ font-weight: normal;
 src: local('Space Grotesk Regular'), url('font/SpaceGrotesk-Regular.woff2') format('woff2');
 }
 
+@font-face {
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 200;
+src: local('Space Grotesk Medium'), url('font/SpaceGrotesk-Medium.woff2') format('woff2');
+}
+
+@font-face {
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 300;
+src: local('Space Grotesk Bold'), url('font/SpaceGrotesk-Bold.woff2') format('woff2');
+}
+
+@font-face {
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+src: local('Space Grotesk SemiBold'), url('font/SpaceGrotesk-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 0;
+src: local('Space Grotesk Light'), url('font/SpaceGrotesk-Light.woff2') format('woff2');
+}
+
+
 /*GENERAL*/
 
 * {
@@ -97,10 +126,10 @@ h1 {
 	color: #f5f3e9;
 }
 
-.intro p {
+.introparagraph {
 	font-weight: normal;
 	font-size: 2em;
-	padding-bottom: 2em;
+	padding-bottom: 1em;
 	line-height: 1.3em;
 	color: #f5f3e9;
 }
@@ -112,7 +141,7 @@ sup {
     vertical-align: super;
 }
 
-.intro p a {
+.introparagraph a {
 	text-decoration: none;
 	color: black;
 }
@@ -124,6 +153,21 @@ h1 a {
 
 h1 a:hover, p a:hover {
 	color: black;
+}
+
+.offer {
+	font-size: 1em;
+  	font-weight: normal;
+  	color: black;
+  	background: transparent;
+}
+
+.consultation  {
+	font-size: 1em;
+  	font-weight: normal;
+  	color: black;
+  	background: transparent;
+  	padding-left: 1.5em;
 }
 
 
@@ -198,7 +242,6 @@ li a:hover {
 	text-decoration: none;
 	font-weight: normal;
 	color: black;
-	font-size: 1em;
 }
 
 .links a:hover {
@@ -307,6 +350,11 @@ li a:hover {
 	width: 100%;
 	margin-top: -1.5em;
 	margin-bottom: 5em;
+}
+
+.aboutbox {
+	position: relative;
+	width: 50vw;
 }
 
 .heroimg {
@@ -534,6 +582,7 @@ td {
 }
 
 footer {
+
 	margin: 1em;
 	z-index: 300;
 }
@@ -597,7 +646,7 @@ footer {
 	background: transparent;
 }
 
-.phonewide, .nocomputer {
+.phonewide, .nocomputer, .x {
 	display: none;
 }
 
@@ -645,6 +694,7 @@ footer {
 
 .links {
 	text-align: left;
+	font-size: 3.5vw;
 }
 
 .links a {
@@ -665,9 +715,13 @@ footer {
 
 #circle {
 	border: solid 1px #FFD519;
+	height: 80px;
+	width: 80px;
 }
 
 #square {
+	height: 70px;
+	width: 70px;
 	border: solid 1px #f04535;
 	margin-top: -4em;
 	margin-left: 11em;
@@ -688,8 +742,13 @@ footer {
 }
 
 /*PROJECTS*/
+
 .projectbox {
 	margin-top: 0em;
+}
+
+.aboutbox {
+	width: 100%;
 }
 
 
@@ -825,6 +884,20 @@ table {
 
 .nocomputer {
 	display: block;
+}
+
+.x {
+	display: block;
+	background-color: transparent;
+	position: absolute;
+	border: 1px black solid;
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+	right: 0;
+	top: 0.1em;
+	font-size: 2em;
+	text-decoration: none;
+	color: black;
 }
 
 }
