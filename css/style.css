@@ -330,7 +330,7 @@ li a:hover {
 	border: solid 1px #f04535;
 }
 
- #parallelogram {
+#parallelogram {
  	position: relative;
     width: 150px;
     height: 100px;
@@ -343,13 +343,16 @@ li a:hover {
 	border: solid 1px blue;
 }
 
+.itsnicethat {
+	background-color: transparent;
+}
+
 .cr {
 	position: fixed;
 	background-color: transparent;
 	top: 5em;
 	right: 6em;
 }
-
 
 .consultation {
 	position: fixed;
@@ -719,6 +722,10 @@ footer {
 	flex-wrap: wrap;
 }
 
+.intro {
+	margin-top: 5em;
+}
+
 
 .left {
 	width: 90vw;
@@ -767,6 +774,7 @@ footer {
 	position: relative;
 	margin-left: 1em;
 	margin-top: -2em;
+	margin-bottom: 3.5em;
 }
 
 #circle {
@@ -784,8 +792,26 @@ footer {
 	margin-bottom: 5em;
 }
 
+#parallelogram {
+    width: 110px;
+    height: 70px;
+	border: 1px solid blue;
+}
+
+.itsnicethat {
+	position: fixed;
+}
+
 .cr {
-	position: relative;
+	top: 9em;
+	right: initial;
+	left: 3em;
+}
+
+.consultation {
+	top: 4em;
+	right: initial;
+	left: 6em;
 }
 
 
@@ -795,6 +821,10 @@ footer {
 
 #square p {
 	color: #f04535;
+}
+
+#parallelogram p {
+	color: blue;
 }
 
 /*PROJECTS*/
