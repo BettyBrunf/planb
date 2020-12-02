@@ -81,7 +81,7 @@ body {
 
 .arrow-down {
 	position: sticky;
-  	color: #d3d1c6;
+  	color: white;
   	z-index: 30;
   	background: transparent;
   	border: none;
@@ -89,7 +89,7 @@ body {
   	font-size: 1em;
   	font-weight: normal;
   	bottom: 0;
-  	top: 45vh;
+  	left: 45vw;
   	display: flex;
   	align-items: center;
   	background: transparent;
