@@ -181,12 +181,30 @@ h1 a:hover, .introparagraph a:hover {
   	background: transparent;
 }
 
-.consultation  {
+.consult  {
 	font-size: 1em;
   	font-weight: normal;
   	color: black;
   	background: transparent;
   	padding-left: 1.5em;
+}
+
+
+
+.x {
+	background-color: transparent;
+	position: fixed;
+	z-index: 15;
+	border: 1px black solid;
+	font-size: 2em;
+	text-decoration: none;
+	color: black;
+	padding-left: 0.3em;
+	padding-right: 0.3em;
+	right: 0.5em;
+	top: 0.5em;
+	display: block;
+	text-align: right;
 }
 
 
@@ -312,18 +330,37 @@ li a:hover {
 	border: solid 1px #f04535;
 }
 
+ #parallelogram {
+ 	position: relative;
+    width: 150px;
+    height: 100px;
+    background-color: #d3d1c6;
+	border: 1px solid #f5f3e9;
+	transform: rotate(-20deg);
+}
+
+#parallelogram:hover {
+	border: solid 1px blue;
+}
+
 .cr {
-	position: fixed;right: 4em;
+	position: fixed;
+	background-color: transparent;
+	top: 5em;
+	right: 6em;
 }
 
 
-#circle p {
+.consultation {
+	position: fixed;
+	background-color: transparent;
+	right: 2em;
+}
+
+#circle p, #square p, #parallelogram p {
 	color: #f5f3e9;
 }
 
-#square p {
-	color: #f5f3e9;
-}
 
 .presstitle {
 	text-align: center;
@@ -665,7 +702,7 @@ footer {
 	background: transparent;
 }
 
-.phonewide, .nocomputer, .x {
+.phonewide, .nocomputer, {
 	display: none;
 }
 
@@ -903,20 +940,6 @@ table {
 
 .nocomputer {
 	display: block;
-}
-
-.x {
-	display: block;
-	background-color: transparent;
-	position: absolute;
-	border: 1px black solid;
-	padding-right: 0.5em;
-	padding-left: 0.5em;
-	right: 0;
-	top: 0.1em;
-	font-size: 2em;
-	text-decoration: none;
-	color: black;
 }
 
 }
