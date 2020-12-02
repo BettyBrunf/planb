@@ -82,6 +82,7 @@ body {
 .arrow-down {
 	position: sticky;
   	color: #d3d1c6;
+  	z-index: 30;
   	background: transparent;
   	border: none;
   	text-decoration: none;
