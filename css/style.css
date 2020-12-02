@@ -79,6 +79,21 @@ body {
 	z-index: -1;
 }
 
+.arrow-down {
+	position: sticky;
+  	color: #d3d1c6;
+  	background: transparent;
+  	border: none;
+  	text-decoration: none;
+  	font-size: 1em;
+  	font-weight: normal;
+  	right: 0;
+  	top: 45vh;
+  	display: flex;
+  	align-items: center;
+  	background: transparent;
+}
+
 
 /*GENERALINTRO*/
 
