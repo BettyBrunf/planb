@@ -705,7 +705,7 @@ footer {
 	background: transparent;
 }
 
-.phonewide, .nocomputer, {
+.phonewide, .nocomputer {
 	display: none;
 }
 
