@@ -737,6 +737,16 @@ footer {
 	order: 1;
 }
 
+.arrow-down {
+  	bottom: 2.5em;
+  	left: 40vw;
+  	align-items: center;
+}
+
+.arrow-down div {
+	margin-bottom: 0.7em;
+}
+
 /*FOOTNOTES*/
 
 .bibliography {
