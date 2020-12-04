@@ -1,37 +1,5 @@
-@font-face {
-font-family: 'Space Grotesk';
-font-style: normal;
-font-weight: normal;
-src: local('Space Grotesk Regular'), url('font/SpaceGrotesk-Regular.woff2') format('woff2');
-}
+@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
 
-@font-face {
-font-family: 'Space Grotesk';
-font-style: normal;
-font-weight: 200;
-src: local('Space Grotesk Medium'), url('font/SpaceGrotesk-Medium.woff2') format('woff2');
-}
-
-@font-face {
-font-family: 'Space Grotesk';
-font-style: normal;
-font-weight: 300;
-src: local('Space Grotesk Bold'), url('font/SpaceGrotesk-Bold.woff2') format('woff2');
-}
-
-@font-face {
-font-family: 'Space Grotesk';
-font-style: normal;
-font-weight: 400;
-src: local('Space Grotesk SemiBold'), url('font/SpaceGrotesk-SemiBold.woff2') format('woff2');
-}
-
-@font-face {
-font-family: 'Space Grotesk';
-font-style: normal;
-font-weight: 0;
-src: local('Space Grotesk Light'), url('font/SpaceGrotesk-Light.woff2') format('woff2');
-}
 
 
 /*GENERAL*/
@@ -47,7 +15,7 @@ body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'Ovo', serif;
 	font-weight: normal;
 }
 
@@ -219,12 +187,21 @@ h1 a:hover, .introparagraph a:hover {
 	padding-bottom: 0.2em;
 }
 
+.boxbiblicredit {
+	display: flex;
+}
+
 .bibli {
 	width: 60vw;
 	position: relative;
 	border: 1px solid #f5f3e9;
 	padding-left: 0.7em;
 	padding-top: 0.2em;
+}
+
+.credits {
+	margin-left: 0.5em;
+	align-self: flex-end;
 }
 
 ol {
@@ -753,8 +730,18 @@ footer {
 	width: 95vw;
 }
 
+.boxbiblicredit {
+	flex-wrap: wrap-reverse;
+}
+
 .bibli {
 	width: 90vw;
+}
+
+.credits {
+	align-self: flex-start;
+	margin-left: 0;
+	margin-bottom: 1em;
 }
 
 /*CONTACT*/
@@ -931,10 +918,11 @@ footer {
 
 .boxbox {
 	width: 90vw;
+	flex-wrap: wrap;
 }
 
 .boxbox p {
-	padding-right: 1em;
+	padding-top: 1em;
 }
 
 /*PROJ TEXT STYLE*/
