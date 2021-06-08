@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
-
-
-
 /*GENERAL*/
 
 * {
@@ -15,8 +11,9 @@ body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
-	font-family: 'Ovo', serif;
-	font-weight: normal;
+	font-family: tablet-gothic, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 /*LANDING*/
@@ -104,7 +101,7 @@ main {
 /*TEXTINTRO*/
 
 h1, .introparagraph {
-	font-weight: normal;
+	font-weight: 400;
 	font-size: 2em;
 	padding: 0;
 	padding-bottom: 1em;
@@ -114,9 +111,9 @@ h1, .introparagraph {
 
 sup { 
 	line-height: 0;
-    font-size: 50%;
-    position: relative;
-    vertical-align: super;
+    	font-size: 50%;
+    	position: relative;
+    	vertical-align: super;
 }
 
 
@@ -136,7 +133,7 @@ h1 a:hover, .introparagraph a:hover {
 
 .offer, .consult {
 	font-size: 1em;
-  	font-weight: normal;
+  	font-weight: 400;
   	color: black;
   	background: transparent;
 }
@@ -234,7 +231,7 @@ li a:hover {
 .links {
 	padding-top: 0.7em;
 	text-decoration: none;
-	font-weight: normal;
+	font-weight: 400;
 	color: black;
 	font-size: 1em;
 	text-align: right;
@@ -242,7 +239,7 @@ li a:hover {
 
 .links a {
 	text-decoration: none;
-	font-weight: normal;
+	font-weight: 400;
 	color: black;
 }
 
@@ -297,9 +294,9 @@ li a:hover {
 
 #parallelogram {
  	position: relative;
-    width: 150px;
-    height: 100px;
-    background-color: #d3d1c6;
+    	width: 150px;
+    	height: 100px;
+    	background-color: #d3d1c6;
 	border: 1px solid #f5f3e9;
 	transform: rotate(-20deg);
 }
@@ -544,7 +541,7 @@ li a:hover {
 /*PROJ TEXT STYLE*/
 
 .bigtype {
-	font-weight: normal;
+	font-weight: 400;
 	font-size: 2em;
 	padding: 0;
 	padding-bottom: 1em;
@@ -556,7 +553,7 @@ li a:hover {
 
 .smalltype {
 	font-size: 1em;
-  	font-weight: normal;
+  	font-weight: 400;
   	color: #f5f3e9;
   	width: 25vw;
   	background: transparent;
@@ -598,7 +595,7 @@ table td {
 
 td {
 	font-size: 1em;
-	font-weight: normal;
+	font-weight: 400;
 	vertical-align: top;
 	padding: 0.3em;
 }
@@ -660,7 +657,7 @@ footer {
   	border: none;
   	text-decoration: none;
   	font-size: 1em;
-  	font-weight: normal;
+  	font-weight: 400;
   	right: 0;
   	top: 45vh;
   	display: flex;
@@ -789,8 +786,8 @@ h1, .introparagraph {
 }
 
 #parallelogram {
-    width: 110px;
-    height: 70px;
+    	width: 110px;
+    	height: 70px;
 	border: 1px solid blue;
 }
 
